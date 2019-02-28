@@ -13,6 +13,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+.search {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
 .container {
   max-width: 1000px;
   margin-right: auto;
@@ -20,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .table {

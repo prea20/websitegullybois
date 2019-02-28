@@ -44,15 +44,3 @@ body {
 .header-right {
   float: right;
 }
-
-
-h8{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #35393d;
-  margin:0px 0px 0px 20px;
-  letter-spacing: 1.15px;
-  font-weight: 150;
-  font-style: italic;
-  padding:5px;
-}
