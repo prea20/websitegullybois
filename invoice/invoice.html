@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+    {% load static %}
+  <title></title>
+  
+      <link rel="stylesheet" href="{% static 'css/invoice.css' %}">
+      <link rel="stylesheet" href="{% static 'css/header.css' %}">
+  
+</head>
+
+<body>
+	<div class="header">
+  		<h1 class="logo">gullybois</h1>
+		<div class="header-right">
+            <a href="home.html">Home</a>
+    		<a href="assetRegister\areg.html">Asset Register</a>
+ 			<a href="spareTable\spare.html">Spares Upkeep</a>
+    		<a href="maintenanceTable\maintenance.html">Maintenance Log</a>
+    		<a href="time\time.html">Time Table</a>
+    		<a href="amc\amc.html">AMC Renewal</a>
+    		<a class="active" href="invoice\invoice.html">Invoice</a>
+    		<a href="notification\notification.html">Notifications</a>
+			<a href="workOrder\wo.html">Work Order</a>
+  		</div>
+	</div>
+	<h8>Because Prevention is Better than Cure</h8>
+
+<div class="container">
+	
+	<div class="table">
+		<div class="table-header">
+			<div class="header__item"><a id="ino" class="filter__link filter__link--number" href="#">Invoice No.</a></div>
+			<div class="header__item"><a id="cust" class="filter__link filter__link--number" href="#">Customer</a></div>
+			<div class="header__item"><a id="date" class="filter__link filter__link--number" href="#">Date</a></div>
+			<div class="header__item"><a id="amt" class="filter__link filter__link--number" href="#">Amount</a></div>
+			<div class="header__item"><a id="paid" class="filter__link filter__link--number" href="#">Paid</a></div>
+			<div class="header__item"><a id="bal" class="filter__link filter__link--number" href="#">Balance</a></div>
+			<div class="header__item"><a id="due" class="filter__link filter__link--number" href="#">Payment Due</a></div>
+			<div class="header__item"><a id="status" class="filter__link filter__link--number" href="#">Status</a></div>
+			<div class="header__item"><a id="entry" class="filter__link filter__link--number" href="#">Entered By</a></div>
+		</div>
+		<div class="table-content">
+			<div class="table-row">		
+				<div class="table-data">Tom</div>
+				<div class="table-data">2</div>
+				<div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+			</div>
+			<div class="table-row">
+				<div class="table-data">Dick</div>
+				<div class="table-data">1</div>
+				<div class="table-data">1</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+			</div>
+			<div class="table-row">
+				<div class="table-data">Harry</div>
+				<div class="table-data">0</div>
+				<div class="table-data">2</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div>
+                <div class="table-data">0</div> 
+			</div>
+		</div>	
+	</div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  
+
+    <script  src="{% static 'js/invoice.js' %}"></script>
+
+
+
+
+</body>
+
+</html>
